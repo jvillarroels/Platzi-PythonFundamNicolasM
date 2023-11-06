@@ -32,3 +32,10 @@ if stock >= 100 and stock <=1000:
 else:
     print('el stock es incorrecto')
 '''
+
+number = int(input('Ingrese un numero => '))
+result = number % 2
+if (result == 0):
+    print('Es par')
+else: 
+    print('Es impar')
