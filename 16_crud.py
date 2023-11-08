@@ -42,7 +42,8 @@ strings = ['re', 'ab', 'ed']
 strings.sort()
 print(strings)
 
-new_list.sort()
+#new_list.sort()
+
 
 
 
