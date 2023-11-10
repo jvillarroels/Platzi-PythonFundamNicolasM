@@ -1,12 +1,23 @@
+import random
+
 print("")
 print("Programa 0_main.py")
-print("Clase 17 Operador lógico not")
+# print("Clase 17 Operador lógico not")
 print("=====================")
 print("")
 
+options = ('piedra', 'papel', 'tijera')
+
 user_option = input('Piedra, papel o tijera => ')
 user_option = user_option.lower()
-computer_option = 'piedra'
+
+computer_option = random.choice(options)
+
+print('User option => ', user_option)
+print('computer_option => ', computer_option)
+
+if not user_option in options:
+    print('*** ---> Esa opción no es válida')
 
 if user_option == computer_option:
     print('Empate!')
